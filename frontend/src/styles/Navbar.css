@@ -1,0 +1,72 @@
+/* navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #CCBDA4;
+  color: #5b4f36;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.brandName {
+  font-size: 35px;
+  font-weight: bold;
+  color: #5b4f36 !important;
+}
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Razmak između elemenata */
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks li {
+  margin: 0;
+  padding: 0;
+}
+
+.profileButton,
+.logoutButton {
+  background-color: #6C5D43;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none; /* Uklanjanje podvlačenja s linkova */
+}
+
+.navbar .rightSection .navLinks .profileButton:hover,
+.navbar .rightSection .navLinks .logoutButton:hover {
+  background-color: #5b4f36;
+}

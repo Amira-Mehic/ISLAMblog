@@ -1,0 +1,91 @@
+/* Osnovni stil za registracionu formu */
+body {
+    background-color: #A59D84; /* Plava pozadina za cijelu stranicu */
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .register-form {
+    background-color: #D7D3BF;
+    border-color:#E2CB9C ;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .register-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .register-form label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  .register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .register-form input:focus {
+    border-color: #A59D84;
+    outline: none;
+  }
+  
+  .register-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #A59D84;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-form button:hover {
+    background-color: #A59D84;
+  }
+  
+  .register-form button:disabled {
+    background-color: #ddd;
+  }
+  
+  .register-form p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .register-form p a {
+    color: #A59D84;
+    text-decoration: none;
+  }
+  
+  .register-form p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Stil za grešku */
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  

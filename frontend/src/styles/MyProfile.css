@@ -1,0 +1,52 @@
+/* Glavni container za profil */
+div {
+  align-items: center; /* Centriranje sadržaja horizontalno */
+  justify-content: center; /* Centriranje sadržaja vertikalno */
+
+}
+
+/* Stilizacija inputa i dugmadi */
+input {
+  width: 100%; /* Postavi širu širinu za inpute */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #5b4f36;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #4b3e28; /* Tamnija nijansa pri hoveru */
+}
+
+/* Naslov */
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Stilizacija labela */
+label {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Centriranje sadržaja unutar svakog inputa i dugmeta */
+input, button {
+  width: 80%; /* Smanjiti širinu inputa i dugmadi, po želji */
+  margin: 10px auto; /* Da se postavi u sredinu */
+}

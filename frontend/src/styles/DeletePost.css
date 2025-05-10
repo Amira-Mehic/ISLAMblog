@@ -1,0 +1,43 @@
+.delete-post-container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.posts-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.post-frame {
+  background-color: #8681504d;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  min-width: 250px;
+}
+
+.post-frame h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.delete-button {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #a83232;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #8b2828;
+}
